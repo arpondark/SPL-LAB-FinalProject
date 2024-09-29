@@ -128,7 +128,8 @@ void displayCart()
 void addr()
 {
     char address[100];
-    int number, y;
+    char number[100];
+    int y;
 
     getchar();
 
@@ -137,10 +138,10 @@ void addr()
     address[strcspn(address, "\n")] = '\0';
 
     printf("\n\t\tPhone Number: ");
-    scanf("%d", &number);
+    scanf("%s", &number);
 
     printf("\n\t\t\t\tAddress: %s", address);
-    printf("\t\t\t\tNumber: %d\n", number);
+    printf("\t\t\t\tNumber: %s\n", number);
 
     printf("\t\t\t\tAll ok?\n");
     printf("\n\t\t\t\t1.Yes\n");
