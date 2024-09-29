@@ -26,7 +26,7 @@ typedef struct
 
 Product products[MAX_PRODUCTS] = {
     {1, "Laptop", 150000},
-    {2, "Phone", 300000},
+    {2, "Phone",29999},
     {3, "Headphones", 799},
     {4, "Keyboard", 3000},
     {5, "Mouse", 450}};
