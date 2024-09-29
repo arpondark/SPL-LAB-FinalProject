@@ -133,11 +133,11 @@ void addr()
 
     getchar();
 
-    printf("\t\tEnter Address: ");
+    printf("\n\t\t\tEnter Address: ");
     fgets(address, sizeof(address), stdin);
     address[strcspn(address, "\n")] = '\0';
 
-    printf("\n\t\tPhone Number: ");
+    printf("\n\t\t\tPhone Number: ");
     scanf("%s", &number);
 
     printf("\n\t\t\t\tAddress: %s", address);
@@ -146,12 +146,13 @@ void addr()
     printf("\t\t\t\tAll ok?\n");
     printf("\n\t\t\t\t1.Yes\n");
     printf("\n\t\t\t\t2.No\n");
+    printf("\n\n\tEnter your choice: ");
 
     scanf("%d", &y);
     if (y == 1)
     {
         printf("\n\t\t\t\t--------------Thank you for your purchase!--------------\n");
-        saveInvoice(); // Save the cart info into the invoice file
+        saveInvoice(); 
     }
     else
     {
@@ -165,13 +166,15 @@ void checkout()
 
     printf("\t\t\t\tChecking out..............\n");
     int n, x;
-    printf("\t\t\t\tAre You Sure to Order Now?\n");
+    printf("\t\t\t\tAre You Sure to Order Now?\n\n");
     printf("\t\t\t\t1.Yes\n");
-    printf("\t\t\t\t2.No\n");
+    printf("\t\t\t\t2.No\n\n");
+    printf("\n\n\tEnter your choice: ");
     scanf("%d", &n);
     if (n == 1)
     {
-        printf("1.COD\n");
+        printf("\t\t\t\t1.COD\n");
+        printf("\n\tEnter your choice: ");
         scanf("%d", &x);
         if (x == 1)
         {
