@@ -1,0 +1,13 @@
+----- Invoice -----
+4 x Laptop - 150000.00 Taka each
+4 x Headphones - 799.00 Taka each
+Total: 603196.00 Taka
+-------------------
+
+----- Invoice -----
+1 x Phone - 300000.00 Taka each
+4 x Headphones - 799.00 Taka each
+1 x Keyboard - 3000.00 Taka each
+Total: 306196.00 Taka
+-------------------
+
