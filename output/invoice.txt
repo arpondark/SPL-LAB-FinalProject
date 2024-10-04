@@ -1,0 +1,10 @@
+----- Invoice -----
+Total: 0.00 Taka
+-------------------
+
+----- Invoice -----
+2 x Phone - 29990.00 Taka each
+5 x Laptop - 150000.00 Taka each
+Total: 809980.00 Taka
+-------------------
+

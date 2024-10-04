@@ -43,6 +43,7 @@ int main()
 
     while (1)
     {
+        printf("\n\t\t\t______________DRACULA's Team_______________\n\n");
         printf("\n\t\t\t______________E-commerce System______________\n\n");
         printf("\t\t\t\t1. Display Products\n");
         printf("\t\t\t\t2. Add to Cart\n");
